@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet</title>
+</head>
+<body>
+
+    <!-- ETIQUETAS NO DEFINIDAS -->
+
+    <firulais>
+        <div></div>
+    </firulais>
+
+    <!-- ELEMENTOS HIJOS > -->
+
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- ELEMENTOS HERMANOS + -->
+
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+    <!-- ELEMENTOS ESCALADOS ^ -->
+
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+    </div>
+
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+        <blockquote></blockquote>
+    </div>
+
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+    </div>
+    <blockquote></blockquote>
+
+    <!-- ELEMENTOS MULTIPLICADOS * -->
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- AGRUPACIÓN DE ELEMENTOS () -->
+
+    <div></div>
+    <header>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </header>
+    <footer>
+        <p></p>
+    </footer>
+
+    <!-- AGRUPACIÓN DENTRO DE AGRUPACIÓN (X(Y)) -->
+
+    <div>
+        <dl>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+        </dl>
+    </div>
+    <footer>
+        <p></p>
+    </footer>
+
+    <!-- ID # Y CLASES . -->
+
+    <div id="header"></div>
+    <div class="page"></div>
+    <div id="footer" class="class1 class2 class3"></div>
+
+    <!-- ATRIBUTOS PERSONALIZADOS [] -->
+
+    <td title="Hello World!" colspan="3"></td>
+
+    <!-- NUMERACIÓN DE ELEMENTOS $ -->
+
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+    </ul>
+
+    <ul>
+        <li class="item item1"></li>
+        <li class="item item2"></li>
+        <li class="item item3"></li>
+        <li class="item item4"></li>
+        <li class="item item5"></li>
+    </ul>
+
+    <!-- CAMBIO DE NUMERACIÓN Y DIRECCIÓN @ -->
+
+    <ul>
+        <li class="item5"></li>
+        <li class="item4"></li>
+        <li class="item3"></li>
+        <li class="item2"></li>
+        <li class="item1"></li>
+    </ul>
+
+    <ul>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+        <li class="item6"></li>
+        <li class="item7"></li>
+    </ul>
+
+    <ul>
+        <li class="item7"></li>
+        <li class="item6"></li>
+        <li class="item5"></li>
+        <li class="item4"></li>
+        <li class="item3"></li>
+    </ul>
+
+    <!-- TEXTO DENTRO DEL ELEMENTO {} -->
+
+    <a href="">Click me</a>
+    <a href="">click</a><b>here</b>
+    <a href="">click<b>here</b></a>
+    <p>click <a href="">here</a> to continue</p>
+
+    <!-- ** NO ** ESPACIOS ENTRE OPERADORES -->
+
+    (header > ul.nav > li*5 ) + <footer></footer>
+
+
+    <!-- ESTRUCTURA GENERADA CON EMMET -->
+    
+    <header></header>
+    <nav>
+        <div class="nav-item nav-item1"></div>
+        <div class="nav-item nav-item2"></div>
+        <div class="nav-item nav-item3"></div>
+        <div class="nav-item nav-item4"></div>
+        <div class="nav-item nav-item5"></div>
+    </nav>
+    <section>
+        <article class="text1">
+            <h1>Titulo</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et hic omnis aperiam molestias officia earum autem ratione perspiciatis? Vitae reprehenderit magnam animi necessitatibus dolorum. Tempora dolor dicta labore et eum.</p>
+        </article>
+        <article class="text2">
+            <h1>Titulo</h1>
+            <p>Expedita, facilis similique maxime fuga vitae optio reiciendis sunt quasi nam veniam assumenda voluptate commodi voluptatem. Dolorem magnam ullam dignissimos explicabo, saepe aut delectus veniam iste, accusamus quae illo placeat.</p>
+        </article>
+        <article class="text3">
+            <h1>Titulo</h1>
+            <p>Blanditiis impedit optio repellendus fugiat dignissimos soluta nobis, rem architecto iusto, provident eos in ipsam nulla alias eaque laudantium iure! Illo, quo? Error velit maxime voluptatum. Iusto eius laboriosam corporis.</p>
+        </article>
+    </section>
+    <footer></footer>
+
+
+
+</body>
+</html>
